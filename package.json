@@ -1,0 +1,36 @@
+{
+  "name": "GroupUp",
+  "longname": "GroupUp",
+  "namespace": "com.groupme-groupup",
+  "version": "0.1.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ajay-gandhi/GroupUp.git"
+  },
+  "sources": {
+    "directory": "."
+  },
+  "icon": {
+    "osx": [
+      "./html/icon.png"
+    ],
+    "windows": [
+      "./html/icon.png"
+    ]
+  },
+  "dependencies": {
+    "es6-promise": "^2.0.1",
+    "jsonfile": "^2.0.0",
+    "open": "0.0.5",
+    "request-promise": "^0.4.0",
+    "xkeychain": "0.0.5",
+    "zombie": "^4.0.5"
+  },
+  "license": "MIT",
+  "copyright": "copyleft",
+  "devDependencies": {
+    "fs-extra": "^0.18.2",
+    "gulp": "^3.8.11"
+  }
+}
